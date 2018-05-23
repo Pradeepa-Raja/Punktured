@@ -1,1 +1,7 @@
-.s4com-helpcenter .s4com-sub-heading.s4com-border-bottom{ display: none;}
+/* faq */
+.s4com-section-body ul { padding-left: 0 !important;}
+.s4com-section-body h3 span { color: #C49430; }
+#how-do-i-take-care-of-my-piercing li { padding-left: 10px; list-style: disc; margin-left: 14px !important;}
+.s4com-helpcenter h1, .s4com-panel, .s4com-sub-heading.s4com-border-bottom{ display: none;}
+.s4com-articles { padding-left: 0 !important; }
+.s4com-space-bottom.s4com-border-bottom { border: none;}
