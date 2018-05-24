@@ -1,9 +1,17 @@
 /* faq */
+body, input, textarea, button, select { font-size: 14px; }
 .s4com-section-body ul { padding-left: 0 !important;}
 .s4com-section-body h3 span { color: #C49430; }
 #how-do-i-take-care-of-my-piercing li { padding-left: 10px; list-style: disc; margin-left: 14px !important;}
 .s4com-helpcenter h1, .s4com-panel, .s4com-sub-heading.s4com-border-bottom{ display: none;}
 .s4com-articles { padding-left: 0 !important; }
 .s4com-space-bottom.s4com-border-bottom { border: none;}
+/* Home Booking/Cancellation section */
 #shopify-section-1527123718739 { margin-top: 0; padding-top: 0;}
-#shopify-section-1527123718739 h2 { color: #000; padding-bottom: 20px;}
+#shopify-section-1527123718739 h2 { color: #fff; padding-bottom: 20px;}
+/* Home About us section */
+#shopify-section-1527123950217 .feature-row__item svg { display: none;}
+#shopify-section-1527123950217 { background: url(https://cdn.shopify.com/s/files/1/0026/6928/1395/files/punktured-tattoo.png?4653660530285576932) no-repeat -20px 0px; padding-bottom: 207px;}
+#shopify-section-1527123950217 .feature-row__text--left { width: 100% !important; margin-left: 25%; margin-top: 12%; padding-left: 0px;}
+#shopify-section-1527123950217 h2 { font-size: 34px !important; color: #490A60;}
+#shopify-section-1527055903169 { padding-bottom: 0 !important; color: #490A60; }
