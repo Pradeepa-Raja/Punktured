@@ -16,4 +16,6 @@ body, input, textarea, button, select { font-size: 14px; }
 #shopify-section-1527123950217 h2 { font-size: 34px !important; color: #490A60;}
 #shopify-section-1527055903169 { padding-bottom: 0 !important; color: #490A60; }
 /* artist page */
-.artist-page-main-content img { float: left; padding-right: 30px;}
+.artist-page-main-content img { margin:0 auto; text-align: center; display: block;}
+.artist-page-main-content h2 { color: #490A60; padding-top: 20px;  text-align: center;}
+.artist-info{ background: rgba(73, 10, 96,0.3); padding: 27px 20px; margin: 20px 0; color: #000 !important;}
