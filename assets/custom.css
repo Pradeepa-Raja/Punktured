@@ -15,3 +15,5 @@ body, input, textarea, button, select { font-size: 14px; }
 #shopify-section-1527123950217 .feature-row__text--left { width: 100% !important; margin-left: 25%; margin-top: 12%; padding-left: 0px;}
 #shopify-section-1527123950217 h2 { font-size: 34px !important; color: #490A60;}
 #shopify-section-1527055903169 { padding-bottom: 0 !important; color: #490A60; }
+/* artist page */
+.artist-page-main-content img { float: left; padding-right: 30px;}
