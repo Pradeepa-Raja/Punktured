@@ -1,4 +1,5 @@
 /* faq */
+.clear{ clear: both;}
 body, input, textarea, button, select { font-size: 14px; }
 .s4com-section-body ul { padding-left: 0 !important;}
 .s4com-section-body h3 span { color: #C49430; }
@@ -16,6 +17,22 @@ body, input, textarea, button, select { font-size: 14px; }
 #shopify-section-1527123950217 h2 { font-size: 34px !important; color: #490A60;}
 #shopify-section-1527055903169 { padding-bottom: 0 !important; color: #490A60; }
 /* artist page */
-.artist-page-main-content img { margin:0 auto; text-align: center; display: block;}
-.artist-page-main-content h2 { color: #490A60; padding-top: 20px;  text-align: center;}
-.artist-info{ background: rgba(73, 10, 96,0.3); padding: 27px 20px; margin: 20px 0; color: #000 !important;}
+.artist-page-main-content img {}
+.artist-page-main-content li{ list-style: none;}
+.artist-page-main-content h2 { color: #490A60; padding-top: 20px;  text-align: left; }
+.artist-info{ width: 72%; float: left; text-align: justify;  padding: 2px 20px 27px 20px; margin: 0px 4% 0 0; color: #000 !important;}
+.artist-info strong { margin-bottom: 13px; display: block;}
+.slideshow.slideshow--large { height: 957px; }
+.artist-left { float: left; margin-right: 10px;}
+.artist-info strong { margin-bottom: 13px; display: block; color: #CA9B3C; font-size: 19px; text-align: left;}
+.artist-info h2 { font-weight: 800; font-size: 29px;}
+.faArrowIcon:before { font-family: FontAwesome; top:0; left:-5px; padding-right:10px; content: "\f0a9"; } 
+.fa:hover { color: #CA9B3C !important;}
+.template-page .grid__item.medium-up--five-sixths.medium-up--push-one-twelfth { width: 100% !important; padding: 0 !important;}
+.artist-infor-right { float: left; width: 22%;}
+.artist-infor-right strong { color: #490A60 !important; font-size: 26px; text-transform: uppercase; display: block; padding-top: 20px; padding-bottom: 29px;}
+.artist-infor-right ul { margin-left: 0; margin-top: 28px;}
+.artist-infor-right li { margin-right: 20px;}
+
+
+
