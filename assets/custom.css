@@ -45,3 +45,9 @@ body, input, textarea, button, select { font-size: 14px; }
 .tattoo-dsrtist-information { width: 406px; margin-left: 10%; float:left; margin-top: 50px;}
 .tattoo-artist-page h2 { color: #410156;}
 .tattoo-dsrtist-information.heading_small h2::after { left: 174px !important;}
+.punktured-video-content { float: left; width: 40%; padding: 100px 0 50px 20px;}
+.punktured-video img { float: left;}
+.punktured-video { background: rgba(196, 148, 47,0.3);}
+.punktured-video-content { float: left; width: 62%; padding: 150px 0 50px 20px;}
+.punktured-image-list li {float: left; margin-top: 36px; list-style: none; margin-left: 0 !important; margin-right: 23px;}
+.punktured-image-list { margin-left: 0 !important;}
