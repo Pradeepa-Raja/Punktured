@@ -1,6 +1,8 @@
-/* faq */
-.clear{ clear: both;}
+/*common styles */
 body, input, textarea, button, select { font-size: 14px; }
+.page-width { padding-left:0; padding-right: 0; }
+.clear{ clear: both;}
+/* faq */
 .s4com-section-body ul { padding-left: 0 !important;}
 .s4com-section-body h3 span { color: #C49430; }
 #how-do-i-take-care-of-my-piercing li { padding-left: 10px; list-style: disc; margin-left: 14px !important;}
@@ -51,3 +53,14 @@ body, input, textarea, button, select { font-size: 14px; }
 .punktured-video-content { float: left; width: 62%; padding: 150px 0 50px 20px;}
 .punktured-image-list li {float: left; margin-top: 36px; list-style: none; margin-left: 0 !important; margin-right: 23px;}
 .punktured-image-list { margin-left: 0 !important;}
+/* Pricing & Procedures */
+.pricing-procedures li span {text-align: center; display: block;}
+.pricing-procedures li { float: left;list-style: none; text-align: center; display: block;width: 230px; margin: 0 auto;margin-bottom: 0px;}
+.pricing-procedures span { color: #410156; font-weight: bold; font-size:18px;}
+.pricing-procedures li { margin-bottom: 37px;}
+.textaligncenter{ text-align: center;}
+.pricing-procedures ul { margin-left: 0; }
+.punktured-nipple { margin-right: 5% !important;}
+.tattoo-after-care { background: rgba(196, 148, 47, 0.4); padding: 23px 20px; margin-bottom: 20px;}
+.tattoo-after-care h2 { margin-bottom: 10px; }
+.aftercare-tattoo-image { width: 30%; float: right; margin-left: 6%;}
