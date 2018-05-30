@@ -64,3 +64,9 @@ body, input, textarea, button, select { font-size: 14px; }
 .tattoo-after-care { background: rgba(196, 148, 47, 0.4); padding: 23px 20px; margin-bottom: 20px;}
 .tattoo-after-care h2 { margin-bottom: 10px; }
 .aftercare-tattoo-image { width: 30%; float: right; margin-left: 6%;}
+/* Store Locations */
+#store-list li.store ul li:nth-child(2) { display: none;}
+.tranding-hours { margin-top: 12px; display: block; color: #000 !important; padding-bottom: 3px;}
+#store-list .store ul li:nth-child(2) {
+    display: none;
+}
