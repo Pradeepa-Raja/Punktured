@@ -3,6 +3,10 @@ body, input, textarea, button, select { font-size: 14px; }
 .page-width { padding-left:0; padding-right: 0; }
 .clear{ clear: both;}
 body, input, textarea, button, select{ color: #490A60;}
+/*HEADER*/
+header.site-header{ padding: 0 !important;}
+header .grid--table{ width: 99%;}
+header .h2.site-header__logo { padding-left: 20px;}
 /* faq */
 .s4com-section-body ul { padding-left: 0 !important;}
 .s4com-section-body h3 span { color: #C49430; }
@@ -95,3 +99,13 @@ body, input, textarea, button, select{ color: #490A60;}
 .site-footer__newsletter label { color: #490A60 !important; font-size: 18px; text-transform: uppercase;}
 #Subscribe { background: #490A60;}
 .site-footer__copyright.site-footer__copyright--right.medium-up--text-right{ text-align: left !important;}
+/* media query */
+@media screen and (max-width: 1940px){
+#shopify-section-1527123950217{ background-size: 50%;}
+.slideshow__slide .slideshow__image { background-size: 83% auto;}
+.slideshow.slideshow--large { height: 750px;}
+#shopify-section-1527123950217{ padding-bottom: 0;}
+}
+@media screen and (max-width: 1475px){
+.site-nav button, .site-nav a { font-size: 14px;}
+}
