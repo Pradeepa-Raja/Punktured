@@ -12,7 +12,7 @@ body, input, textarea, button, select{ color: #490A60;}
 .s4com-space-bottom.s4com-border-bottom { border: none;}
 /* Home Booking/Cancellation section */
 #shopify-section-1527123718739 { margin-top: 0; padding-top: 0;}
-#shopify-section-1527123718739 h2 { color: #fff; padding-bottom: 20px;}
+#shopify-section-1527123718739 h2 { color: #490A60; padding-bottom: 20px;}
 /* Home About us section */
 #shopify-section-1527123950217 .feature-row__item svg { display: none;}
 #shopify-section-1527123950217 { background: url(https://cdn.shopify.com/s/files/1/0026/6928/1395/files/punktured-tattoo.png?4653660530285576932) no-repeat -20px 0px; padding-bottom: 207px;}
@@ -90,3 +90,8 @@ body, input, textarea, button, select{ color: #490A60;}
 .contact-form.form-vertical { background: rgba(73, 10, 96,0.4);  padding: 56px 97px;}
 .contact-form.form-vertical label { color: #fff;}
 .form-message--error { border: 1px solid #490A60; background-color: #490A60; color: #fff;}
+/* footer */
+.site-footer li a { color: #000;}
+.site-footer__newsletter label {  color: #000 !important;}
+#Subscribe { background: #490A60;}
+.site-footer__copyright.site-footer__copyright--right.medium-up--text-right{ text-align: left !important;}
