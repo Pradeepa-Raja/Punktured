@@ -2,6 +2,7 @@
 body, input, textarea, button, select { font-size: 14px; }
 .page-width { padding-left:0; padding-right: 0; }
 .clear{ clear: both;}
+body, input, textarea, button, select{ color: #490A60;}
 /* faq */
 .s4com-section-body ul { padding-left: 0 !important;}
 .s4com-section-body h3 span { color: #C49430; }
@@ -67,6 +68,25 @@ body, input, textarea, button, select { font-size: 14px; }
 /* Store Locations */
 #store-list li.store ul li:nth-child(2) { display: none;}
 .tranding-hours { margin-top: 12px; display: block; color: #000 !important; padding-bottom: 3px;}
-#store-list .store ul li:nth-child(2) {
-    display: none;
-}
+#store-list .store ul li:nth-child(2) { display: none;}
+/* Navigation */
+.site-nav button, .site-nav a { font-size: 16px;}
+#SiteNavLabel-tattoo-artists, #SiteNavLabel-faqs { background: rgba(65, 1, 86); z-index: 9999; }
+.site-nav__dropdown li a { color: #fff;}
+.adboutusright { float: left; width: 29%; padding-top: 20px; }
+.adboutusleft { float: left; width: 61%; padding: 35px 15px 10px 3px;}
+.aboutus-box-bottom h2 { margin-bottom: 16px; margin-top: 10px !important; text-align: left;}
+.aboutus-box-section { text-align: justify; background:#8C6699; color: #fff !important;}
+.aboutus-box-section p{ color: #fff !important;}
+.aboutus-box-bottom { padding: 24px 37px 12px 29px; background: rgba(140, 102, 153,0.8); float: left; width: 67%; margin: 65px 0 0 -53px; min-height: 204px;}
+.aboutus-box-section img { float: left; }
+.aboutus-box-section2 .aboutus-box-bottom { background: rgba(200, 152, 57, 0.7); margin-left: 10px; margin-top: 24px !important; margin-right: -53px; z-index: 9999;}
+.aboutus-box-section2 ul, .aboutus-box-section3 ul { margin-left: 0; width: 95%;}
+.aboutus-box-section3 .aboutus-box-bottom { margin-top: 22px; padding: 6px 37px 0 29px;}
+.aboutus-box-section.aboutus-box-section2, .aboutus-box-section.aboutus-box-section3{ margin-bottom: 30px;}
+.aboutus-box-bottom h2{ position: relative;}
+.aboutus-box-bottom h2::after { background: #fff; content: ""; height: 2px; width: 53px; color: #000; position: absolute; bottom: -6px; left: 1px;}
+.contact-form.form-vertical input, .contact-form.form-vertical textarea { background: none !important; border: 1px solid #fff; color: #fff !important;}
+.contact-form.form-vertical { background: rgba(73, 10, 96,0.4);  padding: 56px 97px;}
+.contact-form.form-vertical label { color: #fff;}
+.form-message--error { border: 1px solid #490A60; background-color: #490A60; color: #fff;}
