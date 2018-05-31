@@ -92,6 +92,6 @@ body, input, textarea, button, select{ color: #490A60;}
 .form-message--error { border: 1px solid #490A60; background-color: #490A60; color: #fff;}
 /* footer */
 .site-footer li a { color: #000;}
-.site-footer__newsletter label {  color: #000 !important;}
+.site-footer__newsletter label { color: #490A60 !important; font-size: 18px; text-transform: uppercase;}
 #Subscribe { background: #490A60;}
 .site-footer__copyright.site-footer__copyright--right.medium-up--text-right{ text-align: left !important;}
