@@ -3,6 +3,7 @@ body, input, textarea, button, select { font-size: 14px; }
 .page-width { padding-left:0; padding-right: 0; }
 .clear{ clear: both;}
 body, input, textarea, button, select{ color: #490A60;}
+.grid{ margin-left: 0 !important;}
 /*HEADER*/
 header.site-header{ padding: 0 !important;}
 header .grid--table{ width: 99%;}
@@ -108,4 +109,63 @@ header .h2.site-header__logo { padding-left: 20px;}
 }
 @media screen and (max-width: 1475px){
 .site-nav button, .site-nav a { font-size: 14px;}
+.slideshow.slideshow--large { height: 650px;}
+}
+@media screen and (max-width: 1326px){
+nav { width: 100% !important;}
+#shopify-section-1527123950217 .feature-row__text--left{ margin-top:0;}
+}
+@media screen and (max-width: 1286px){
+.slideshow.slideshow--large { height: 501px;}
+#shopify-section-1527123950217 .feature-row__text--left{ margin-left: 0; margin-top:0;}
+.aboutus-box-bottom{ margin-left: 0; float: left; width: 57%;}
+.aboutus-box-section p{ color: #000 !important;}
+.aboutus-box-section{ background: none; color: #000 !important; margin-top: 10px;}
+.aboutus-box-section img { float: left; display: block; text-align: center; margin: 0 auto;}
+.tattoo-artist-page h2 { font-size: 20px;}
+.tattoo-dsrtist-information{ margin: 0 auto; float: none;}
+.template-page .grid__item.medium-up--five-sixths.medium-up--push-one-twelfth{ left:0;}
+.tattoo-artist-page span{ font-size: 17px;}
+}
+@media screen and (max-width: 1199px){
+.page-width{ width: 97%; padding: 0 10px;}
+}
+@media screen and (max-width: 990px){
+footer .grid__item { width: 300px; padding-left: 15px !important;}
+#shopify-section-1527123950217 .feature-row__text--left{ padding-top:0!important;}
+header .site-header__icons-wrapper{ margin-right: 0 !important;}
+}
+@media screen and (max-width: 845px){
+.slideshow.slideshow--large { height: 348px;}
+#shopify-section-1527123950217 .page-width{ padding-top: 204px; text-align: center;}
+#shopify-section-1527123950217 { background-size: 50%;background-position: top center;}
+#shopify-section-1527123950217 h2{ margin-top: 21px;}
+.site-footer__linklist li{ display: block;}
+.aboutus-box-bottom { margin-left: 0;float: left; width: 53%;}
+
+.aboutus-box-section { background: none; color: #000 !important; margin:0 auto; background: rgba(140, 102, 153,0.8); width: 300px;}
+.aboutus-box-section img { float: none; width: 150px; display: block; text-align: center; margin: 0 auto; padding-top:10px;}
+.aboutus-box-bottom { margin-left: 0; float: none; width: auto; margin-top: 0; display: block; background: none; }
+.aboutus-box-section.aboutus-box-section2 { background: rgba(200, 152, 57, 0.7); padding: 10px 28px;}
+.aboutus-box-section2 .aboutus-box-bottom{ background: none; margin-right: 0; margin-left: 0; padding: 0;}
+.adboutusright { display: none;}
+.adboutusleft { float: none; width: 96%; padding: 35px 10px 10px 10px; text-align: center;}
+}
+@media screen and (max-width: 749px){
+.grid{ margin-left: 0;}
+.tattoo-dsrtist-information h2::after{ background: none;}
+}
+@media screen and (max-width: 600px){
+.slideshow.slideshow--large { height: 269px;}
+footer .grid__item { width: 300px; padding-left: 15px !important; float: none; margin: 0 auto;}
+#shopify-section-1527123950217 { background-size: 400px;}
+}
+@media screen and (max-width: 500px){
+#shopify-section-1527123950217 { background-size: 400px;}
+#shopify-section-1527123950217 .page-width { padding-top: 150px;}
+.slideshow.slideshow--large { height: 150px;}
+#shopify-section-1527123718739 h2 { font-size: 18px;}
+.tattoo-dsrtist-information{ width: 280px; margin-bottom: 16px;}
+footer .grid__item {width: 280px;}
+.page-width{ width: 95%;}
 }
