@@ -4,6 +4,10 @@ body, input, textarea, button, select { font-size: 14px; }
 .clear{ clear: both;}
 body, input, textarea, button, select{ color: #490A60;}
 .grid{ margin-left: 0 !important;}
+#MainContent {
+    width: 1700px;
+    margin: 0 auto;
+}
 /*HEADER*/
 header.site-header{ padding: 0 !important;}
 header .grid--table{ width: 99%;}
@@ -127,6 +131,10 @@ nav { width: 100% !important;}
 .template-page .grid__item.medium-up--five-sixths.medium-up--push-one-twelfth{ left:0;}
 .tattoo-artist-page span{ font-size: 17px;}
 }
+@media screen and (max-width: 1215px){
+.punktured-video-content{ padding: 50px 0 50px 20px;}
+.punktured-image-list li img { width: 250px;}
+}
 @media screen and (max-width: 1199px){
 .page-width{ width: 97%; padding: 0 10px;}
 }
@@ -152,6 +160,9 @@ header .site-header__icons-wrapper{ margin-right: 0 !important;}
 .adboutusleft { float: none; width: 96%; padding: 35px 10px 10px 10px; text-align: center;}
 }
 @media screen and (max-width: 749px){
+.punktured-video img { width: 230px;}
+.punktured-image-list li img { width: 230px;}
+.punktured-image-list li{ width: 230px; padding-top: 10px; margin: 0 auto !important; float: none;}
 .grid{ margin-left: 0;}
 .tattoo-dsrtist-information h2::after{ background: none;}
 }
