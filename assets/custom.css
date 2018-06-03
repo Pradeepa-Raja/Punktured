@@ -129,6 +129,10 @@ nav { width: 100% !important;}
 .template-page .grid__item.medium-up--five-sixths.medium-up--push-one-twelfth{ left:0;}
 .tattoo-artist-page span{ font-size: 17px;}
 }
+@media screen and (max-width: 1270px){
+.page-width { max-width: 95%; margin: 0 auto;}
+#PageContainer { width: 98%; padding: 0 10px;}
+}
 @media screen and (max-width: 1200px){
 .punktured-image-list li { width: 239px;}
 }
@@ -171,6 +175,7 @@ footer .grid__item { width: 300px; padding-left: 15px !important; float: none; m
 #shopify-section-1527123950217 { background-size: 400px;}
 }
 @media screen and (max-width: 500px){
+.aftercare-tattoo-image { float: none; width: auto;}
 #shopify-section-1527123950217 { background-size: 400px;}
 #shopify-section-1527123950217 .page-width { padding-top: 150px;}
 .slideshow.slideshow--large { height: 150px;}
