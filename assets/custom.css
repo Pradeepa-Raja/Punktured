@@ -1,5 +1,6 @@
 /*common styles */
 body, input, textarea, button, select { font-size: 14px; }
+h2, .h2{ text-transform: capitalize;}
 .page-width { padding-left:0; padding-right: 0; }
 .clear{ clear: both;}
 body, input, textarea, button, select{ color: #490A60;}
