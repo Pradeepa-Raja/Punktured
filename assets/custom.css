@@ -29,7 +29,7 @@ header .h2.site-header__logo { padding-left: 20px;}
 .artist-page-main-content img {}
 .artist-page-main-content li{ list-style: none;}
 .artist-page-main-content h2 { color: #490A60; padding-top: 20px;  text-align: left; }
-.artist-info{ width: 72%; float: left; text-align: justify;  padding: 2px 20px 27px 20px; margin: 0px 4% 0 0; color: #000 !important;}
+.artist-info{ width: 72%; float: left; text-align: justify;  padding: 2px 20px 27px 0px; margin: 0px 4% 0 0; color: #000 !important;}
 .artist-info strong { margin-bottom: 13px; display: block;}
 .slideshow.slideshow--large { height: 957px; }
 .artist-left { float: left; margin-right: 10px;}
@@ -138,6 +138,10 @@ nav { width: 100% !important;}
 }
 @media screen and (max-width: 1199px){
 .page-width{ width: 97%; padding: 0 10px;}
+.artist-right {  width: 43%; float: left;}
+.artist-left { width: 47%;}
+.artist-info{ padding: 2px 20px 27px 0px;}
+.artist-infor-right{ width: auto;}
 }
 @media screen and (max-width: 1080px){
 .punktured-video img { width: 200px;}
@@ -186,4 +190,8 @@ footer .grid__item {width: 280px;}
 .punktured-video img { width: 200px; float: none; margin: 0 auto; text-align: center; display: block; padding-top: 10px;}
 .punktured-video-content{ width: auto; float: none;}
 #contact_form .grid__item { padding-left: 0 !important;}
+}
+@media screen and (max-width: 400px){
+.contact-form.form-vertical { background: rgba(73, 10, 96,0.4); padding: 56px 30px;}
+footer .grid__item { width: 222px; margin: 0 auto !important; padding: 0 !important;}
 }
