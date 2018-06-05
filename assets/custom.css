@@ -26,6 +26,9 @@ header .h2.site-header__logo { padding-left: 20px;}
 #shopify-section-1527123950217 h2 { font-size: 34px !important; color: #490A60;}
 #shopify-section-1527055903169 { padding-bottom: 0 !important; color: #490A60; }
 #shopify-section-1528178000596 h2 { font-size: 33px;}
+/*Leader in tattoo*/
+#shopify-section-1528238500620 h2 { font-size: 28px;}
+#shopify-section-1528238500620 .rich-text__text--medium { font-size: 16px;}
 /* artist page */
 .artist-page-main-content img {}
 .artist-page-main-content li{ list-style: none;}
