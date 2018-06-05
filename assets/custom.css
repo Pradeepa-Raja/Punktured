@@ -25,6 +25,7 @@ header .h2.site-header__logo { padding-left: 20px;}
 #shopify-section-1527123950217 .feature-row__text--left { width: 100% !important; margin-left: 25%; margin-top: 12%; padding-left: 0px;}
 #shopify-section-1527123950217 h2 { font-size: 34px !important; color: #490A60;}
 #shopify-section-1527055903169 { padding-bottom: 0 !important; color: #490A60; }
+#shopify-section-1528178000596 h2 { font-size: 33px;}
 /* artist page */
 .artist-page-main-content img {}
 .artist-page-main-content li{ list-style: none;}
@@ -60,6 +61,7 @@ header .h2.site-header__logo { padding-left: 20px;}
 .punktured-video-content { float: left; width: 62%; padding: 150px 0 50px 20px;}
 .punktured-image-list li {float: left; margin-top: 36px; list-style: none; margin-left: 0 !important; margin-right: 23px;}
 .punktured-image-list { margin-left: 0 !important;}
+.punktured-image-list li:nth-child(2) { padding: 0 4%;}
 /* Pricing & Procedures */
 .pricing-procedures li span {text-align: center; display: block;}
 .pricing-procedures li { float: left;list-style: none; text-align: center; display: block;width: 230px; margin: 0 auto;margin-bottom: 0px;}
@@ -128,6 +130,8 @@ nav { width: 100% !important;}
 .tattoo-dsrtist-information{ margin: 0 auto; float: none;}
 .template-page .grid__item.medium-up--five-sixths.medium-up--push-one-twelfth{ left:0;}
 .tattoo-artist-page span{ font-size: 17px;}
+.punktured-image-list li:nth-child(2) { padding: 0;}
+
 }
 @media screen and (max-width: 1270px){
 .page-width { max-width: 95%; margin: 0 auto;}
@@ -140,7 +144,7 @@ nav { width: 100% !important;}
 .page-width{ width: 97%; padding: 0 10px;}
 .artist-right {  width: 43%; float: left;}
 .artist-left { width: 47%;}
-.artist-info{ padding: 2px 20px 27px 0px;}
+.artist-info{ padding: 2px 0px 27px 0px; width: 100%;}
 .artist-infor-right{ width: auto;}
 }
 @media screen and (max-width: 1080px){
@@ -159,7 +163,6 @@ header .site-header__icons-wrapper{ margin-right: 0 !important;}
 #shopify-section-1527123950217 h2{ margin-top: 21px;}
 .site-footer__linklist li{ display: block;}
 .aboutus-box-bottom { margin-left: 0;float: left; width: 53%;}
-
 .aboutus-box-section { background: none; color: #000 !important; margin:0 auto; background: rgba(140, 102, 153,0.8); width: 300px;}
 .aboutus-box-section img { float: none; width: 150px; display: block; text-align: center; margin: 0 auto; padding-top:10px;}
 .aboutus-box-bottom { margin-left: 0; float: none; width: auto; margin-top: 0; display: block; background: none; }
