@@ -31,7 +31,6 @@ header .h2.site-header__logo { padding-left: 20px;}
 #shopify-section-1528238500620 .rich-text__text--medium { font-size: 16px;}
 #shopify-section-1528238500620 .grid__item.medium-up--two-thirds.medium-up--push-one-sixth { width: 70%;}
 #shopify-section-1528238808944 { padding: 0;}
-#shopify-section-1527123950217 .feature-row__item {flex: auto;}
 /* artist page */
 .artist-page-main-content img {}
 .artist-page-main-content li{ list-style: none;}
@@ -100,10 +99,13 @@ header .h2.site-header__logo { padding-left: 20px;}
 .aboutus-box-section.aboutus-box-section2, .aboutus-box-section.aboutus-box-section3{ margin-bottom: 30px;}
 .aboutus-box-bottom h2{ position: relative;}
 .aboutus-box-bottom h2::after { background: #fff; content: ""; height: 2px; width: 53px; color: #000; position: absolute; bottom: -6px; left: 1px;}
-.contact-form.form-vertical input, .contact-form.form-vertical textarea { background: none !important; border: 1px solid #fff; color: #fff !important;}
-.contact-form.form-vertical { background: rgba(73, 10, 96,0.4);  padding: 56px 97px;}
-.contact-form.form-vertical label { color: #fff;}
-.form-message--error { border: 1px solid #490A60; background-color: #490A60; color: #fff;}
+.contact-form.form-vertical input, .contact-form.form-vertical textarea { background: none !important; border: 1px solid #000; color: #000 !important;}
+.contact-form.form-vertical {  padding: 56px 97px;}
+.contact-form.form-vertical label { color: #000;}
+#contact_form .grid__item { float: none; width: 100%;}
+.contact-form.form-vertical input, .contact-form.form-vertical textarea{ width: 100%;}
+.contact-form.form-vertical { padding: 56px 0px; width: 500px; float: right; margin-right: 13%;}
+.form-message--error { border: 1px solid #490A60; background-color: #490A60; color: #000;}
 /* footer */
 .site-footer li a { color: #000;}
 .site-footer__newsletter label { color: #490A60 !important; font-size: 18px; text-transform: uppercase;}
@@ -186,6 +188,7 @@ header .site-header__icons-wrapper{ margin-right: 0 !important;}
 .slideshow.slideshow--large { height: 269px;}
 footer .grid__item { width: 300px; padding-left: 15px !important; float: none; margin: 0 auto;}
 #shopify-section-1527123950217 { background-size: 400px;}
+#shopify-section-1527123950217 .feature-row__item {flex: auto;}
 }
 @media screen and (max-width: 500px){
 .aftercare-tattoo-image { float: none; width: auto;}
