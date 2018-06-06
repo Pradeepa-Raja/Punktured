@@ -62,7 +62,7 @@ header .h2.site-header__logo { padding-left: 20px;}
 .tattoo-dsrtist-information.heading_small h2::after { left: 174px !important;}
 .punktured-video-content { float: left; width: 40%; padding: 100px 0 50px 20px;}
 .punktured-video img { float: left;}
-.punktured-video { background: rgba(196, 148, 47,0.3);}
+.punktured-video { background: rgba(73, 10, 96,0.4);}
 .punktured-video-content { float: left; width: 62%; padding: 150px 0 50px 20px;}
 .punktured-image-list li {float: left; margin-top: 36px; list-style: none; margin-left: 0 !important; margin-right: 23px;}
 .punktured-image-list { margin-left: 0 !important;}
@@ -104,8 +104,15 @@ header .h2.site-header__logo { padding-left: 20px;}
 .contact-form.form-vertical label { color: #000;}
 #contact_form .grid__item { float: none; width: 100%;}
 .contact-form.form-vertical input, .contact-form.form-vertical textarea{ width: 100%;}
-.contact-form.form-vertical { padding: 56px 0px; width: 500px; float: right; margin-right: 13%;}
+.contact-form.form-vertical { padding: 56px 0px; width: 500px; float: right; margin-right: 22%;}
 .form-message--error { border: 1px solid #490A60; background-color: #490A60; color: #000;}
+/*FAQ*/
+.s4com-helpcenter { background-image: url(https://cdn.shopify.com/s/files/1/0026/6928/1395/files/faq-page.png?8815133708061525603); background-repeat: no-repeat;
+ background-attachment: fixed; background-position: top right;}
+.s4com-space-bottom {
+    width: 1120px;
+    margin: 0 auto;
+}
 /* footer */
 .site-footer li a { color: #000;}
 .site-footer__newsletter label { color: #490A60 !important; font-size: 18px; text-transform: uppercase;}
@@ -154,6 +161,7 @@ nav { width: 100% !important;}
 .artist-left { width: 47%;}
 .artist-info{ padding: 2px 0px 27px 0px; width: 100%;}
 .artist-infor-right{ width: auto;}
+.s4com-space-bottom { width: 98%;}
 }
 @media screen and (max-width: 1080px){
 .punktured-video img { width: 200px;}
@@ -182,8 +190,10 @@ header .site-header__icons-wrapper{ margin-right: 0 !important;}
 @media screen and (max-width: 749px){
 .grid{ margin-left: 0;}
 .tattoo-dsrtist-information h2::after{ background: none;}
+.contact-form.form-vertical { padding: 56px 0px; width: 100%; float: right; margin-right: 0;}
 }
 @media screen and (max-width: 600px){
+.s4com-helpcenter{ background-image: none;}
 .punktured-image-list li{ margin: 0 auto !important; float: none;}
 .slideshow.slideshow--large { height: 269px;}
 footer .grid__item { width: 300px; padding-left: 15px !important; float: none; margin: 0 auto;}
@@ -204,6 +214,6 @@ footer .grid__item {width: 280px;}
 #contact_form .grid__item { padding-left: 0 !important;}
 }
 @media screen and (max-width: 400px){
-.contact-form.form-vertical { background: rgba(73, 10, 96,0.4); padding: 56px 30px;}
+.contact-form.form-vertical { padding: 56px 30px;}
 footer .grid__item { width: 222px; margin: 0 auto !important; padding: 0 !important;}
 }
