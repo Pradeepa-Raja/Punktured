@@ -84,7 +84,7 @@ header .h2.site-header__logo { padding-left: 20px;}
 #store-list .store ul li:nth-child(2) { display: none;}
 /* Navigation */
 .site-nav button, .site-nav a { font-size: 16px;}
-#SiteNavLabel-tattoo-artists, #SiteNavLabel-faqs { background: rgba(65, 1, 86); z-index: 9999; }
+#SiteNavLabel-tattoo-artists, #SiteNavLabel-faqs { background: rgba(65, 1, 86,1); z-index: 9999; }
 .site-nav__dropdown li a { color: #fff;}
 .adboutusright { float: left; width: 29%; padding-top: 20px; }
 .adboutusleft { float: left; width: 61%; padding: 35px 15px 10px 3px;}
