@@ -215,6 +215,8 @@ footer .grid__item {width: 280px;}
 .punktured-video img { width: 200px; float: none; margin: 0 auto; text-align: center; display: block; padding-top: 10px;}
 .punktured-video-content{ width: auto; float: none;}
 #contact_form .grid__item { padding-left: 0 !important;}
+#shopify-section-1527123950217 .feature-row__text--left { padding-top: 70px !important;}
+#shopify-section-1528238500620 .grid__item.medium-up--two-thirds.medium-up--push-one-sixth{ width: auto;}
 }
 @media screen and (max-width: 400px){
 .contact-form.form-vertical { padding: 56px 30px;}
