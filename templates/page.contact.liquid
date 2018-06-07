@@ -1,10 +1,23 @@
+<style>
+  #MainContent {
+    background-image: url(https://cdn.shopify.com/s/files/1/0026/6928/1395/files/contcat-us-page.png?4887748970219032699);
+    background-attachment: fixed;
+    background-position: top left;
+    background-repeat: no-repeat;
+
+}
+@media screen and (max-width: 600px){
+#MainContent{ background-size:100%;}
+}
+</style>
 <div class="page-width">
   <div class="grid">
     <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
       <div class="section-header text-center">
         <h1>{{ page.title }}</h1>
       </div>
-
+      
+      
       {% if page.content.size > 0 %}
         <div class="rte">
           {{ page.content }}
