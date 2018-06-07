@@ -167,6 +167,9 @@ nav { width: 100% !important;}
 .punktured-video img { width: 200px;}
 .punktured-video-content {width: 56%; padding: 50px 0 50px 20px;}
 }
+@media screen and (max-width: 1602px){
+.site-nav button, .site-nav a { font-size: 14px;}
+}
 @media screen and (max-width: 990px){
 footer .grid__item { width: 300px; padding-left: 15px !important;}
 #shopify-section-1527123950217 .feature-row__text--left{ padding-top:0!important;}
