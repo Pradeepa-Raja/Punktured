@@ -83,6 +83,8 @@ header .h2.site-header__logo { padding-left: 20px;}
 .tranding-hours { margin-top: 12px; display: block; color: #000 !important; padding-bottom: 3px;}
 #store-list .store ul li:nth-child(2) { display: none;}
 /* Navigation */
+header.site-header { padding: 0 !important; position: fixed; height: 156px !important; display: block; z-index: 9999; top: 31px !important}
+.site-header.header-alt { height: 111px !important; border-bottom: 1px solid #ccc !important;}
 .site-nav button, .site-nav a { font-size: 16px;}
 #SiteNavLabel-tattoo-artists, #SiteNavLabel-faqs { background: rgba(65, 1, 86,1); z-index: 9999; }
 .site-nav__dropdown li a { color: #fff;}
