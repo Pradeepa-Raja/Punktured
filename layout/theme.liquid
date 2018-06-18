@@ -72,6 +72,21 @@
   <!--[if lte IE 9]><script src="{{ 'theme.js' | asset_url }}"></script><![endif]-->
 
   {{ content_for_header }}
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>
+    $(function() {
+    var header = $("header");
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+    
+        if (scroll >= 200) {
+            header.addClass("header-alt");
+        } else {
+            header.removeClass("header-alt");
+        }
+    });
+});
+  </script>
 </head>
 
 <body class="template-{{ template | split: '.' | first }}">
