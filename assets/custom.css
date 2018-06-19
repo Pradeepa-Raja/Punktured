@@ -5,11 +5,16 @@ h2, .h2{ text-transform: capitalize;}
 .clear{ clear: both;}
 body, input, textarea, button, select{ color: #490A60;}
 header .site-header__cart { display: none;}
+.main-content{ margin-top: 15px;}
 /*HEADER*/
 header.site-header{ padding: 0 !important;}
 header .grid--table{ width: 99%;}
 header .h2.site-header__logo { padding-left: 20px;}
 #shopify-section-1527037810901 { margin-top: 0 !important; position: relative; top: 92px;}
+#PageContainer { position: relative;top: 86px;}
+.template-index #PageContainer #MainContent { margin-top: 0;}
+.template-index #PageContainer { top: 0; position: inherit;}
+#PageContainer #MainContent{ position: inherit; top:0;}
 /* faq */
 .s4com-section-body ul { padding-left: 0 !important;}
 .s4com-section-body h3 span { color: #C49430; }
