@@ -9,6 +9,7 @@ header .site-header__cart { display: none;}
 header.site-header{ padding: 0 !important;}
 header .grid--table{ width: 99%;}
 header .h2.site-header__logo { padding-left: 20px;}
+#shopify-section-1527037810901 { margin-top: 0 !important; position: relative; top: 92px;}
 /* faq */
 .s4com-section-body ul { padding-left: 0 !important;}
 .s4com-section-body h3 span { color: #C49430; }
@@ -21,7 +22,7 @@ header .h2.site-header__logo { padding-left: 20px;}
 #shopify-section-1527123718739 h2 { color: #490A60; padding-bottom: 20px;}
 /* Home About us section */
 #shopify-section-1527123950217 .feature-row__item svg { display: none;}
-#shopify-section-1527123950217 { background: url(https://cdn.shopify.com/s/files/1/0026/6928/1395/files/punktured-tattoo.png?4653660530285576932) no-repeat -20px 0px; padding-bottom: 207px;}
+#shopify-section-1527123950217 { background: url(https://cdn.shopify.com/s/files/1/0026/6928/1395/files/punktured-tattoo.png?4653660530285576932) no-repeat -20px 0px; padding-bottom: 207px; margin-top: 120px;}
 #shopify-section-1527123950217 .feature-row__text--left { width: 100% !important; margin-left: 25%; margin-top: 12%; padding-left: 0px;}
 #shopify-section-1527123950217 h2 { font-size: 34px !important; color: #490A60;}
 #shopify-section-1527055903169 { padding-bottom: 0 !important; color: #490A60; }
@@ -159,6 +160,7 @@ nav { width: 100% !important;}
 .punktured-image-list li { width: 239px;}
 }
 @media screen and (max-width: 1199px){
+header.site-header { height: 122px !important; top: 46px;}
 .page-width{ width: 97%; padding: 0 10px;}
 .artist-right {  width: 43%; float: left;}
 .artist-left { width: 47%;}
@@ -179,6 +181,7 @@ footer .grid__item { width: 300px; padding-left: 15px !important;}
 header .site-header__icons-wrapper{ margin-right: 0 !important;}
 }
 @media screen and (max-width: 845px){
+header.site-header img { width: 194px;}
 .slideshow.slideshow--large { height: 348px;}
 #shopify-section-1527123950217 .page-width{ padding-top: 204px; text-align: center;}
 #shopify-section-1527123950217 { background-size: 50%;background-position: top center;}
@@ -192,6 +195,7 @@ header .site-header__icons-wrapper{ margin-right: 0 !important;}
 .aboutus-box-section2 .aboutus-box-bottom{ background: none; margin-right: 0; margin-left: 0; padding: 0;}
 .adboutusright { display: none;}
 .adboutusleft { float: none; width: 96%; padding: 35px 10px 10px 10px; text-align: center;}
+#shopify-section-1527123950217 .feature-row { width: 100%; text-align: center; display: block; margin-top: 0;}
 }
 @media screen and (max-width: 749px){
 .grid{ margin-left: 0;}
@@ -208,7 +212,7 @@ footer .grid__item { width: 300px; padding-left: 15px !important; float: none; m
 }
 @media screen and (max-width: 500px){
 .aftercare-tattoo-image { float: none; width: auto;}
-#shopify-section-1527123950217 { background-size: 400px;}
+#shopify-section-1527123950217 { background-size: 400px; margin-top: 72px;}
 #shopify-section-1527123950217 .page-width { padding-top: 150px;}
 .slideshow.slideshow--large { height: 150px;}
 #shopify-section-1527123718739 h2 { font-size: 18px;}
@@ -220,6 +224,7 @@ footer .grid__item {width: 280px;}
 #contact_form .grid__item { padding-left: 0 !important;}
 #shopify-section-1527123950217 .feature-row__text--left { padding-top: 70px !important;}
 #shopify-section-1528238500620 .grid__item.medium-up--two-thirds.medium-up--push-one-sixth{ width: auto;}
+.slideshow__slide .slideshow__image { background-size: 100% auto;}
 }
 @media screen and (max-width: 400px){
 .contact-form.form-vertical { padding: 56px 30px;}
