@@ -38,7 +38,10 @@ header .h2.site-header__logo { padding-left: 20px;}
 #shopify-section-1528238500620 .grid__item.medium-up--two-thirds.medium-up--push-one-sixth { width: 70%;}
 #shopify-section-1528238808944 { padding: 0;}
 /* artist page */
-.artist-page-main-content img {}
+.contact-store h2{ color: #C69130;}
+.contact-store span { padding-bottom: 13px; display: inline-block;}
+.contact-store .fa-envelope::before, .contact-store .fa-phone-volume::before { content: "\f0e0"; font: normal normal normal 14px/1 FontAwesome; }
+.contact-store .fa-phone-volume::before{ content:"\f2a0";}
 .artist-page-main-content li{ list-style: none;}
 .artist-page-main-content h2 { color: #490A60; padding-top: 20px;  text-align: left; }
 .artist-info{ width: 72%; float: left; text-align: justify;  padding: 2px 20px 27px 0px; margin: 0px 4% 0 0; color: #000 !important;}
