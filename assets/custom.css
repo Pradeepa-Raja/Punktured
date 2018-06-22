@@ -189,6 +189,7 @@ header.site-header { height: 122px !important; top: 46px;}
 footer .grid__item { width: 300px; padding-left: 15px !important;}
 #shopify-section-1527123950217 .feature-row__text--left{ padding-top:0!important;}
 header .site-header__icons-wrapper{ margin-right: 0 !important;}
+header .site-header__search-toggle{ display: none;}
 }
 @media screen and (max-width: 845px){
 header.site-header img { width: 194px;}
