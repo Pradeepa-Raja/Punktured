@@ -214,6 +214,7 @@ header.site-header img { width: 194px;}
 .grid{ margin-left: 0;}
 .tattoo-dsrtist-information h2::after{ background: none;}
 .contact-form.form-vertical { padding: 56px 0px; width: 100%; float: right; margin-right: 0;}
+#shopify-section-1527049687186 .grid { margin: 0 auto;}
 }
 @media screen and (max-width: 600px){
 .s4com-helpcenter{ background-image: none;}
