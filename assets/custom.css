@@ -119,6 +119,7 @@ header.site-header { padding: 0 !important; position: fixed; height: 156px !impo
 .contact-form.form-vertical input, .contact-form.form-vertical textarea{ width: 100%;}
 .contact-form.form-vertical { padding: 56px 0px; width: 500px; float: right; margin-right: 22%;}
 .form-message--error { border: 1px solid #490A60; background-color: #490A60; color: #000;}
+.form-message.form-message--error { color: #fff;}
 /*FAQ*/
 .s4com-helpcenter { background-image: url(https://cdn.shopify.com/s/files/1/0026/6928/1395/files/faq-page.png?8815133708061525603); background-repeat: no-repeat;
  background-attachment: fixed; background-position: top right;}
