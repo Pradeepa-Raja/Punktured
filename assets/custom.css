@@ -38,7 +38,8 @@ header .h2.site-header__logo { padding-left: 20px;}
 #shopify-section-1528238500620 .grid__item.medium-up--two-thirds.medium-up--push-one-sixth { width: 70%;}
 #shopify-section-1528238808944 { padding: 0;}
 /* artist page */
-.contact-store h2{ color: #C69130;}
+.contact-store span{ margin-left: 10px;}
+.contact-store h3{ color: #C69130; padding-top: 20px; display: block; margin-bottom: 10px;}
 .contact-store span { padding-bottom: 13px; display: inline-block;}
 .contact-store .fa-envelope::before, .contact-store .fa-phone-volume::before { content: "\f0e0"; font: normal normal normal 14px/1 FontAwesome; }
 .contact-store .fa-phone-volume::before{ content:"\f2a0";}
@@ -220,6 +221,12 @@ footer .grid__item { width: 300px; padding-left: 15px !important; float: none; m
 #shopify-section-1527123950217 .feature-row__item {flex: auto;}
 }
 @media screen and (max-width: 500px){
+/*Banner
+#slickSlide00 .slideshow__image.box{ background: url(https://cdn.shopify.com/s/files/1/0026/6928/1395/files/punktured-mobile-happy-days-piercings.png?13547152972780880055) no-repeat center center;}
+#slickSlide01 .slideshow__image.box{ background: url(https://cdn.shopify.com/s/files/1/0026/6928/1395/files/punktured-mobile-new-arrivals-piercings.png?13547152972780880055) no-repeat center center;}
+#slickSlide02 .slideshow__image.box{ background: url(https://cdn.shopify.com/s/files/1/0026/6928/1395/files/punktured-mobile-5-all-stores-piercings.png?13547152972780880055) no-repeat center center;}
+#slickSlide03 .slideshow__image.box{ background: url(https://cdn.shopify.com/s/files/1/0026/6928/1395/files/punktured-mobile-help-your-piercings-heal.png?13547152972780880055) no-repeat center center;}
+#slickSlide00 .slideshow__image.box, #slickSlide01 .slideshow__image.box, #slickSlide02 .slideshow__image.box, #slickSlide03 .slideshow__image.box{ background-size: 100% auto;}*/
 .aftercare-tattoo-image { float: none; width: auto;}
 #shopify-section-1527123950217 { background-size: 400px; margin-top: 72px;}
 #shopify-section-1527123950217 .page-width { padding-top: 150px;}
