@@ -209,13 +209,17 @@ header.site-header img { width: 194px;}
 .adboutusright { display: none;}
 .adboutusleft { float: none; width: 96%; padding: 35px 10px 10px 10px; text-align: center;}
 #shopify-section-1527123950217 .feature-row { width: 100%; text-align: center; display: block; margin-top: 0;}
-#shopify-section-1528238500620 .grid__item.medium-up--two-thirds.medium-up--push-one-sixth{ width: 100%;}
+#shopify-section-1528238500620 .grid__item.medium-up--two-thirds.medium-up--push-one-sixth{ width: 75%;}
 }
 @media screen and (max-width: 749px){
 .grid{ margin-left: 0;}
 .tattoo-dsrtist-information h2::after{ background: none;}
 .contact-form.form-vertical { padding: 56px 0px; width: 100%; float: right; margin-right: 0;}
 #shopify-section-1527049687186 .grid { margin: 0 auto;}
+#shopify-section-1528238500620 .grid__item.medium-up--two-thirds.medium-up--push-one-sixth { width: 100%;}
+}
+@media screen and (max-width: 686px){
+footer .grid__item { margin: 0 auto; display: block; float: none;}
 }
 @media screen and (max-width: 600px){
 .s4com-helpcenter{ background-image: none;}
