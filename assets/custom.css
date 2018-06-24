@@ -57,7 +57,7 @@ header .h2.site-header__logo { padding-left: 20px;}
 .template-page .grid__item.medium-up--five-sixths.medium-up--push-one-twelfth { width: 100% !important; padding: 0 !important;}
 .artist-infor-right { float: left; width: 22%;}
 .artist-infor-right strong { color: #490A60 !important; font-size: 26px; text-transform: uppercase; display: block; padding-top: 20px; padding-bottom: 29px;}
-.artist-infor-right ul { margin-left: 0; margin-top: 28px;}
+.artist-infor-right ul { margin-left: 0; margin-top: 28px; margin-top: 0 !important;}
 .artist-infor-right li { margin-right: 20px;}
 .artist-infor-right li { float: left;}
 .artist-infor-right li a{ border-bottom: none !important;}
